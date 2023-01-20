@@ -39,7 +39,7 @@ spec:
   managementCluster:
     name: release-i-02d48-bedd08c
   workerNodeGroupConfigurations:
-  - count: 1
+  - count: 3
     machineGroupRef:
       kind: VSphereMachineConfig
       name: release-i-02d48-bedd08c
